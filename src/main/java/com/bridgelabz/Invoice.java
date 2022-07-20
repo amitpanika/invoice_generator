@@ -5,11 +5,11 @@ public class Invoice {
     public double totalFare;
     public double avgFare;
 
-    /**
+    /*
      *  constructor
-     * @param rideCount - no. of rides
-     * @param totalFare - total fare
-     * @param avgFare - average fare = total fare/ no. of rides
+     *  rideCount - no. of rides
+     *  totalFare - total fare
+     *  avgFare - average fare = total fare/ no. of rides
      */
     public Invoice(int rideCount, double totalFare, double avgFare) {
         super();
@@ -18,7 +18,7 @@ public class Invoice {
         this.avgFare = avgFare;
     }
 
-    /**
+    /*
      * We are overriding the equals method.
      */
     @Override
